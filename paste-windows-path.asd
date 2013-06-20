@@ -11,5 +11,5 @@
   :license "MIT"
   :description "enable to paste Windows path string into REPL directly"
   :depends-on (:cl-syntax)
-  :components ((:file "paste")) )
+  :components ((:file "reader")) )
 
