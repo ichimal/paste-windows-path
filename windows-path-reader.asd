@@ -1,10 +1,10 @@
-(cl:defpackage #:paste-windows-path-asd
+(cl:defpackage #:windows-path-reader-asd
   (:use :cl :asdf) )
 
-(cl:in-package #:paste-windows-path-asd)
+(cl:in-package #:windows-path-reader-asd)
 
-(defsystem paste-windows-path
-  :name "paste windows path"
+(defsystem windows-path-reader
+  :name "Windows path reader"
   :version "0.1.0"
   :maintainer "SUZUKI Shingo"
   :author "SUZUKI Shingo"

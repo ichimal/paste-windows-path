@@ -1,4 +1,4 @@
-# paste-windows-path
+# windows-path-reader
 
 This package just only define a syntax.
 
@@ -6,8 +6,8 @@ Using this syntax enables you to copy&paste Winodows path from address bar of Ex
 
 ## Usage:
 
-	> (asdf:load-system :paste-windows-path)
-	> (syntax:use-syntax :paste-windows-path)
+	> (asdf:load-system :windows-path-reader)
+	> (syntax:use-syntax :windows-path-reader)
 
 and then, type `#"`and paste raw Windows path string and type `"`
 

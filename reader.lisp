@@ -1,10 +1,10 @@
-(cl:in-package #:paste-windows-path-asd)
+(cl:in-package #:windows-path-reader-asd)
 
-(defpackage :paste-windows-path
+(defpackage :windows-path-reader
   (:use :cl)
   (:import-from :syntax #:find-syntax #:define-package-syntax) )
 
-(in-package :paste-windows-path)
+(in-package :windows-path-reader)
 
 (defun windows-path-reader (stream char type)
   (declare (ignore char))
@@ -16,7 +16,7 @@
       (pathname raw)
       raw )))
 
-(define-package-syntax :paste-windows-path
+(define-package-syntax :windows-path-reader
   (:fuze :current)
   (:dispatch-macro-char #\# #\" #'windows-path-reader) )
 

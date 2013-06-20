@@ -1,5 +1,5 @@
 Copyright (C) 2013 Shingo SUZUKI,
-https://github.com/ichimal/paste-windows-path
+https://github.com/ichimal/windows-path-reader
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
